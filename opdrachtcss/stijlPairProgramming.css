@@ -1,0 +1,61 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+header {
+   background: aliceblue;
+   display: grid;
+   grid-template-columns: 5fr 1fr;
+   padding: 2em;
+}
+
+header input {
+   height: 2em;
+   line-height: 2em;
+   padding: 1em;
+}
+
+main {
+   color: LightSeaGreen;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2px;
+   margin: 2%;
+   padding: 2%;
+}
+
+section {
+   background: aliceblue;
+   margin: 3%;
+   padding: 6%;
+}
+
+section img {
+   max-width: 100%;
+}
+
+#validatie {
+   text-align: right;
+}
+#opschrijfboek {
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   padding: 0;
+}
+.illustratie {
+   background-image: url("afb/opschrijfboek.jpg");
+   background-size: cover;
+
+}
+#studerenGroot {
+   display: grid;
+   grid-template-rows: span 2;
+   padding: 0;
+}
+.studeren {
+ background-image: url("")
+}
+.onder {
+   background-color: rgb(68, 182, 172);
+}
